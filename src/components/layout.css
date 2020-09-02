@@ -1,0 +1,133 @@
+html, body {
+    padding: 0;
+    border: none;
+    margin: 0;
+    background-color: #d2d2d2;
+}
+
+.background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url("src/fonts/raleway/Raleway-Black.ttf"),
+         url("src/fonts/raleway/Raleway-BlackItalic.ttf"),
+         url("src/fonts/raleway/Raleway-Bold.ttf"),
+         url("src/fonts/raleway/Raleway-BoldItalic.ttf"),
+         url("src/fonts/raleway/Raleway-ExtraBold.ttf"),
+         url("src/fonts/raleway/Raleway-ExtraBoldItalic.ttf"),
+         url("src/fonts/raleway/Raleway-ExtraLight.ttf"),
+         url("src/fonts/raleway/Raleway-ExtraLightItalic.ttf"),
+         url("src/fonts/raleway/Raleway-Italic.ttf"),
+         url("src/fonts/raleway/Raleway-Italic-VariableFont_wght.ttf"),
+         url("src/fonts/raleway/Raleway-Light.ttf"),
+         url("src/fonts/raleway/Raleway-LightItalic.ttf"),
+         url("src/fonts/raleway/Raleway-Medium.ttf"),
+         url("src/fonts/raleway/Raleway-MediumItalic.ttf"),
+         url("src/fonts/raleway/Raleway-Regular.ttf"),
+         url("src/fonts/raleway/Raleway-SemiBold.ttf"),
+         url("src/fonts/raleway/Raleway-SemiBoldItalic.ttf"),
+         url("src/fonts/raleway/Raleway-Thin.ttf"),
+         url("src/fonts/raleway/Raleway-ThinItalic.ttf"),
+         url("src/fonts/raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform: lowercase;}
+.capitalize {text-transform: capitalize;}
+
+header {
+    margin: 0 auto;
+    width: calc(100% - 30px);
+    padding: 25px 15px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-content {
+    margin: 0 auto;
+    width: calc(100% - 30px);
+    position: relative;
+    text-align: right;
+}
+
+.header-logo {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background-color: orange;
+}
+
+.header-parts {
+
+}
+
+.header-communication {
+
+}
+
+@media screen and (min-width: 1100px) {
+    .header-communication * {
+        display: inline-block;
+    }
+}
+
+.header-btn {
+    margin-right: 17px;
+    padding-bottom: 12px;
+    font-family: 'raleway', sans-serif;
+    color: #cccbcd;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 2px;
+}
+
+.header-social-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+    position: relative;
+}
+
+.facebook-logo-mini,
+.linkedin-logo-mini,
+.twitter-logo-mini,
+.instagram-logo-mini,
+.youtube-logo-mini {
+    width: 24px;
+    height: 24px;
+}
+
+.header-navigation {
+
+}
+
+
+main {
+
+}
+
+footer {
+
+}
